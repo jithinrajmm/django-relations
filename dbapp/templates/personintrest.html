@@ -1,0 +1,8 @@
+{{object.name}}
+
+<h1>Intrests of {{person.name}}</h1>
+{% for intrest in  person.intrest.all %}
+
+{{intrest.title}}
+  
+{% endfor %}
